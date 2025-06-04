@@ -1,0 +1,21 @@
+.skillsSection {
+  padding: 4rem 2rem;
+  background-color: #f9fafb;
+  text-align: center;
+}
+
+.skillsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.skillCard {
+  background: #e0e7ff;
+  padding: 1rem;
+  border-radius: 8px;
+  font-weight: bold;
+  color: #3730a3;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}

@@ -1,0 +1,130 @@
+.contactSection {
+  padding: 4rem 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.heading {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+  color: #6e3eff; /* purple */
+  font-weight: 700;
+}
+
+.container {
+  display: flex;
+  gap: 3rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contactInfo, .formWrapper {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 12px 24px rgb(110 62 255 / 0.15);
+  flex: 1 1 320px;
+  max-width: 420px;
+}
+
+.subHeading {
+  color: #a24fff;
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.infoItem {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  margin-bottom: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgb(110 62 255 / 0.25);
+  padding: 0.7rem 1rem;
+  background: #f9f7ff;
+}
+
+.iconWrapper {
+  background: #a24fff;
+  border-radius: 50%;
+  width: 42px;
+  height: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  box-shadow: 0 4px 18px rgb(110 62 255 / 0.4);
+}
+
+.label {
+  color: #4b66ff;
+  font-weight: 600;
+  font-size: 0.75rem;
+  text-transform: none;
+}
+
+.infoItem strong {
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: black;
+}
+
+.link {
+  color: black;
+  text-decoration: none;
+}
+.link:hover {
+  text-decoration: underline;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.input, .textarea {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px 15px;
+  font-size: 1rem;
+  font-family: inherit;
+  resize: none;
+  transition: border-color 0.3s ease;
+}
+
+.input:focus, .textarea:focus {
+  outline: none;
+  border-color: #6e3eff;
+  box-shadow: 0 0 8px #6e3effaa;
+}
+
+.textarea {
+  min-height: 90px;
+}
+
+.button {
+  padding: 0.7rem 2rem;
+  background: #6e3eff;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-weight: 600;
+  cursor: pointer;
+  max-width: 160px;
+  align-self: flex-start;
+  box-shadow: 0 6px 15px rgb(110 62 255 / 0.7);
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background: #a24fff;
+}
+
+.status {
+  margin-top: 1rem;
+  font-weight: 600;
+  color: #6e3eff;
+}

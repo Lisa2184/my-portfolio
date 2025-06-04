@@ -1,0 +1,31 @@
+.projectCard {
+  background-color: white;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  color: #000; /* Ensure visible text */
+  display: block; /* Full clickable card */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.projectCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+  background-color: #f0f4ff; /* Optional hover color */
+}
+
+.projectCard h3 {
+  
+  text-decoration: underline;
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  color: #1a1a40; /* Title color */
+}
+
+.projectCard p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #333; /* Description color */
+}

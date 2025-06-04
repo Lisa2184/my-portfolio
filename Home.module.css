@@ -1,0 +1,37 @@
+.homeSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 20px;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f0f4ff, #dbe4ff);
+  text-align: center;
+}
+
+.homeTitle {
+  font-size: 3rem;
+  color: #743dbd;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.homeSubtitle {
+  font-size: 1.2rem;
+  color: #2b67ac;
+  max-width: 600px;
+  margin-bottom: 40px;
+}
+
+/* Optional: smooth fade-in for avatar uploader too */
+.avatarUploaderContainer {
+  animation: fadeIn 1s ease-in-out forwards;
+  opacity: 0;
+  animation-delay: 0.4s;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
